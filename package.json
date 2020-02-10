@@ -1,0 +1,15 @@
+{
+  "name": "clean-arc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "clean-arc": "index.js"
+  },
+  "dependencies": {
+    "commander": "^4.1.1",
+    "copy-dir": "^1.2.0",
+    "inquirer": "^7.0.4",
+    "progress": "^2.0.3"
+  }
+}

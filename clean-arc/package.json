@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "db": "node ./db/index.js",
+    "start-up": "yarn init && yarn run start-up1 && yarn start-up2",
+    "start-up1": "yarn add cors cuid dotenv express mongodb morgan",
+    "start-up2": "yarn add --dev faker jest",
+    "server": "node ./src/index.js",
+    "start": "npm run db && npm run server"
+  },
+  "author": "",
+  "dependencies": {
+    "cors": "",
+    "cuid": "",
+    "dotenv": "",
+    "express": "",
+    "mongodb": "",
+    "morgan": ""
+  },
+  "devDependencies": {
+    "faker": "",
+    "jest": ""
+  },
+  "license": "MIT"
+}
