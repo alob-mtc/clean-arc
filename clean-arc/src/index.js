@@ -20,7 +20,7 @@ app.use((_, res, next) => {
   next();
 });
 // router setup
-// require("../routers")(app);
+require("../routers")(app);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

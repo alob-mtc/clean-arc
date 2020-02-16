@@ -1,4 +1,4 @@
-export default async function notFound() {
+module.exports = async function notFound() {
   return {
     headers: {
       "Content-Type": "application/json"
@@ -9,4 +9,5 @@ export default async function notFound() {
     },
     statusCode: 404
   };
-}
+};
+
